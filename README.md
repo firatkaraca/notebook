@@ -12,7 +12,8 @@ Notebook App is a simple and efficient note-taking application built with Kotlin
 
 ## Installation
 1. Clone the repository:
-   ```sh
+   ```sh![notebookDesktop](https://github.com/user-attachments/assets/100395aa-e8e8-430b-9670-d670b413a110)
+
    git clone https://github.com/firatkaraca/notebook.git
    ```
 2. Open the project in Android Studio.
@@ -30,5 +31,8 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
 ## License
 This project is licensed under the MIT License.
 
-## Contact
-For any questions or suggestions, please reach out via https://github.com/firatkaraca.
+## Screenshoots
+
+<img src="https://github.com/user-attachments/assets/100395aa-e8e8-430b-9670-d670b413a110" width="300"  />
+
+<img src="https://github.com/user-attachments/assets/7962790f-eec3-48ba-bc2a-f8ae1c404526" width="300"/>
