@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?background"
+    android:orientation="vertical"
+    tools:context=".ui.content.ContentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/ic_back"
+                android:textColor="@color/paleCerulean" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end|center_vertical">
+
+            <Button
+                android:id="@+id/btnUpdateNote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical|end"
+                android:letterSpacing="0.2"
+                android:paddingHorizontal="10dp"
+                android:text="@string/save"
+                android:textAllCaps="true"
+                android:textColor="?color" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gunmetal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp">
+
+            <EditText
+                android:id="@+id/notEditTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:autofillHints=""
+                android:background="@android:color/transparent"
+                android:enabled="false"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:letterSpacing="0.1"
+                android:paddingVertical="20dp"
+                android:scrollHorizontally="false"
+                android:textColor="?color"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gunmetal"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/notEditTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@android:color/transparent"
+                android:enabled="true"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="start|top"
+                android:hint="@string/enterNote"
+                android:inputType="textMultiLine"
+                android:letterSpacing="0.1"
+                android:paddingVertical="20dp"
+                android:scrollHorizontally="false"
+                android:textColor="?color"
+                android:textSize="30sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gunmetal"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/notEditContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="40dp"
+                android:autofillHints=""
+                android:background="@android:color/transparent"
+                android:enabled="true"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="start|top"
+                android:hint="@string/enterContent"
+                android:inputType="textMultiLine"
+                android:letterSpacing="0.1"
+                android:overScrollMode="always"
+                android:scrollbars="vertical"
+                android:scrollHorizontally="false"
+                android:textColor="?android:textColor" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

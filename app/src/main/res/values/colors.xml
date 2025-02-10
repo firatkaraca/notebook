@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkGray">#333333</color>
+    <color name="crimson">#db0962</color>
+    <color name="midnightGreen">#0e121d</color>
+    <color name="gunmetal">#1E263A</color>
+    <color name="paleCerulean">#749BBB</color>
+    <color name="softRed">#ab1513</color>
+    <color name="softGreen">#45ab13</color>
+    <color name="light_gray">#5e6569</color>
+    <color name="test">#1389D2</color>
+</resources>
