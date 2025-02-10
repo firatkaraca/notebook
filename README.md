@@ -31,5 +31,4 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
 This project is licensed under the MIT License.
 
 ## Contact
-For any questions or suggestions, please reach out via [your email or GitHub profile link].
-
+For any questions or suggestions, please reach out via https://github.com/firatkaraca.
